@@ -18,3 +18,4 @@ The only exception to this are the basic tags like: h1,h2,h3,h4,h5,h6,p . <br>
 <ul>
   <li><b>MAKE SURE TO ONLY MAKE A JS FILE THAT SPECIFICALLY DOES IT'S OPERATION!!! </b><br></li>
 </ul>
+Don't refrence any single page CSS, that should be linked on the page in question.
