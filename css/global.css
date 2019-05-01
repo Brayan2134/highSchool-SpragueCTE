@@ -10,3 +10,7 @@
     General Notes:
         - CLASS STRUCTURE: .(sectionName)-(containerName)-(rowName(optional))-(class)
 */
+
+body{
+    background:#E8E8E8;
+}
