@@ -10,6 +10,20 @@
     General Notes:
         - CLASS STRUCTURE: .(sectionName)-(containerName)-(rowName(optional))-(class)
 */
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
 
 body,
 html {
