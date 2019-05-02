@@ -11,6 +11,12 @@
         - CLASS STRUCTURE: .(sectionName)-(containerName)-(rowName(optional))-(class)
 */
 
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
 body{
     background:#E8E8E8;
 }

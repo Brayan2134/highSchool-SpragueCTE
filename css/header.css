@@ -11,37 +11,33 @@
         - CLASS STRUCTURE: .(sectionName)-(containerName)-(rowName(optional))-(class)
 */
 
-header.masthead {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 72px);
-    background-color: rgb(24, 24, 24);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: url('https://via.placeholder.com/300');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: light;
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
   }
-  
-  header.masthead h1 {
-    font-size: 2.25rem;
+  .masthead h1 {
+    font-size: 5.5rem;
   }
-  
-  @media (min-width: 992px) {
-    header.masthead {
-      height: 100vh;
-      min-height: 40rem;
-      padding-top: 72px;
-      padding-bottom: 0;
-    }
-    header.masthead p {
-      font-size: 1.15rem;
-    }
-    header.masthead h1 {
-      font-size: 3rem;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    header.masthead h1 {
-      font-size: 3.5rem;
-    }
-  }
+}
