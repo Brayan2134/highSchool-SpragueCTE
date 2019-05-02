@@ -11,6 +11,7 @@
         - CLASS STRUCTURE: .(sectionName)-(containerName)-(rowName(optional))-(class)
 */
 
+/*Top of page*/
 .masthead {
   color: white;
   min-height: 30rem;
@@ -40,5 +41,41 @@
   }
   .masthead h1 {
     font-size: 3rem;
+  }
+}
+
+/*Make the slanted line at the bottom of masthead*/
+.mastheadSlantedLineOption{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  margin-top: -1px;
+  margin-bottom: 130px;
+  padding-top: 80px;
+}
+
+.mastheadSlantedLineOption:after {
+  background: inherit;
+  bottom: -140px;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(4deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+/* Fix/hack for 1080p+ displays */
+@media screen and (min-width: 1921px) {
+  .mastheadSlantedLineOption {
+    padding-bottom: 5px;
+    margin-bottom: 240px !important;
+  }
+
+  .mastheadSlantedLineOption:after{
+    bottom: -220px !important;
   }
 }
