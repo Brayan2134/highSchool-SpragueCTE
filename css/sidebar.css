@@ -1,7 +1,7 @@
 #mainNav {
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: rgb(100, 100, 100);
     -webkit-transition: background-color 0.2s ease;
     transition: background-color 0.2s ease;
   }
@@ -26,6 +26,10 @@
   
   #mainNav .navbar-nav .nav-item .nav-link.active {
     color: #f4623a !important;
+  }
+
+  #mainNav .navbar-toggler{
+    border: none;
   }
   
   @media (min-width: 992px) {

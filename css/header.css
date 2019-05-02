@@ -12,6 +12,7 @@
 */
 
 .masthead {
+  color: white;
   min-height: 30rem;
   position: relative;
   display: table;
@@ -19,7 +20,7 @@
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: url('https://via.placeholder.com/300');
+  background: rgb(24, 24, 24);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,7 +29,7 @@
 .masthead h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: light;
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
   padding: 0;
 }
@@ -38,6 +39,6 @@
     height: 100vh;
   }
   .masthead h1 {
-    font-size: 5.5rem;
+    font-size: 3rem;
   }
 }
