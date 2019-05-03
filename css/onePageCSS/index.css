@@ -19,3 +19,21 @@
 .transitionToPrograms{
     background-color: #181818;
 }
+
+.btn-getStarted{
+    width: 100%;
+    color: white;
+    border-radius: 2px;
+    text-align: center;
+    background: rgb(24,24,24);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.btn-getStarted:hover{
+    transition: 0.3s all;
+    color: black;
+    background: #FA4616; 
+}
