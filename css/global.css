@@ -12,6 +12,26 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
 
+.mb-6{
+    margin-bottom: 6vh;
+}
+
+.mb-7{
+    margin-bottom: 7vh;
+}
+
+.mb-8{
+    margin-bottom: 8vh;
+}
+
+.mb-9{
+    margin-bottom: 9vh;
+}
+
+.mb-10{
+    margin-bottom: 10vh;
+}
+
 h1,
 h2,
 h3,
@@ -44,4 +64,5 @@ hr.shortLine{
     width:10%;
     text-align:center;
     margin: 0 auto;
-  }
+    margin-bottom: 3vh;
+}

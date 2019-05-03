@@ -45,7 +45,7 @@
 }
 
 /*Make the slanted line at the bottom of masthead*/
-.mastheadSlantedLineOption{
+.slantedLineOption{
   color: #fff;
   position: relative;
   z-index: 1;
@@ -54,9 +54,9 @@
   padding-top: 80px;
 }
 
-.mastheadSlantedLineOption:after {
+.slantedLineOption:after {
   background: inherit;
-  bottom: -140px;
+  bottom: -100px;
   content: '';
   display: block;
   height: 50%;

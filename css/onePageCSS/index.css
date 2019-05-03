@@ -3,6 +3,19 @@
     Date: 5/1/19
 */
 
-.masthead-title-orangeSpragueLogo{
+.title-orangeSpragueLogo{
     color: #FA4616;
+}
+
+.aboutCTE{
+    color: #e8e8e8;
+}
+
+.aboutCTE:hover{
+    color: black;
+    transition: 1s;
+}
+
+.transitionToPrograms{
+    background-color: #181818;
 }
