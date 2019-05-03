@@ -3,10 +3,12 @@
     Date: 5/1/19
 */
 
+/*Sprague orange color*/
 .title-orangeSpragueLogo{
     color: #FA4616;
 }
 
+/*About CTE*/
 .aboutCTE{
     color: #e8e8e8;
 }
@@ -16,10 +18,12 @@
     transition: 1s;
 }
 
+/*After hero*/
 .transitionToPrograms{
     background-color: #181818;
 }
 
+/*BTN to jump-tp page*/
 .btn-getStarted{
     width: 100%;
     color: white;
@@ -36,4 +40,51 @@
     transition: 0.3s all;
     color: black;
     background: #FA4616; 
+}
+
+/*Individual program items*/
+* {
+    box-sizing: border-box;
+}
+
+.bgSportsMed{
+    background-image: url(../../img/programPictures/sportsMedIntro.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgSportsMed:hover{
+    transition: 1s;
+    filter: blur(0px);
+}
+
+.bgBusiness{
+    background-image: url('https://via.placeholder.com/150');
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgBusiness:hover{
+    transition: 1s;
+    filter: blur(0px);
+}
+
+.bgBlur-text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
 }

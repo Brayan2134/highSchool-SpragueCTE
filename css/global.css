@@ -66,3 +66,7 @@ hr.shortLine{
     margin: 0 auto;
     margin-bottom: 3vh;
 }
+
+.bold{
+    font-weight: bold;
+}
