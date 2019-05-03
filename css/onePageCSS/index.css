@@ -47,6 +47,66 @@
     box-sizing: border-box;
 }
 
+.bgEVSci{
+    background-image: url('https://via.placeholder.com/150');
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgEVSci:hover{
+    transition: 1s;
+    filter: blur(0px);
+}
+
+.bgCAD{
+    background-image: url('https://via.placeholder.com/150');
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgCAD:hover{
+    transition: 1s;
+    filter: blur(0px);
+}
+
+.bgECD{
+    background-image: url('https://via.placeholder.com/150');
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgECD:hover{
+    transition: 1s;
+    filter: blur(0px);
+}
+
+.bgAuto{
+    background-image: url('https://via.placeholder.com/150');
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgAuto:hover{
+    transition: 1s;
+    filter: blur(0px);
+}
+
 .bgSportsMed{
     background-image: url(../../img/programPictures/sportsMedIntro.jpg);
     filter: blur(8px);
@@ -58,7 +118,7 @@
 }
 
 .bgSportsMed:hover{
-    transition: 1s;
+    transition: 1s all;
     filter: blur(0px);
 }
 
@@ -87,4 +147,5 @@
     width: 80%;
     padding: 20px;
     text-align: center;
+    pointer-events: none;
 }
