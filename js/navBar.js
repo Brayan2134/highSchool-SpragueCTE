@@ -41,10 +41,10 @@ document.write('\
                     </li>\
                     <li class="nav-item">\
                     <a class="nav-link js-scroll-trigger" href="#contact">Sports Medicine</a>\
-                </li>\
-                <li class="nav-item">\
-                    <a class="nav-link js-scroll-trigger" href="#contact">Business</a>\
-                </li>\
+                    </li>\
+                    <li class="nav-item">\
+                        <a class="nav-link js-scroll-trigger" href="#contact">Business</a>\
+                    </li>\
                 </ul>\
             </div>\
         </div>\
