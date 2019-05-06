@@ -58,7 +58,7 @@
 }
 
 .bgEVSci:hover{
-    transition: 1s;
+    transition: 0.5s;
     filter: blur(0px);
 }
 
@@ -73,7 +73,7 @@
 }
 
 .bgCAD:hover{
-    transition: 1s;
+    transition: 0.5s;
     filter: blur(0px);
 }
 
@@ -88,7 +88,7 @@
 }
 
 .bgECD:hover{
-    transition: 1s;
+    transition: 0.5s;
     filter: blur(0px);
 }
 
@@ -103,7 +103,7 @@
 }
 
 .bgAuto:hover{
-    transition: 1s;
+    transition: 0.5;
     filter: blur(0px);
 }
 
@@ -118,7 +118,7 @@
 }
 
 .bgSportsMed:hover{
-    transition: 1s all;
+    transition: 0.5s all;
     filter: blur(0px);
 }
 
@@ -133,7 +133,7 @@
 }
 
 .bgBusiness:hover{
-    transition: 1s;
+    transition: 0.5s;
     filter: blur(0px);
 }
 
