@@ -28,17 +28,23 @@ document.write('\
             <div class="collapse navbar-collapse" id="navbarResponsive">\
                 <ul class="navbar-nav ml-auto my-2 my-lg-0">\
                     <li class="nav-item">\
-                        <a class="nav-link js-scroll-trigger" href="#about">About</a>\
+                        <a class="nav-link js-scroll-trigger" href="#about">Environmental Science</a>\
                     </li>\
                     <li class="nav-item">\
-                        <a class="nav-link js-scroll-trigger" href="#services">Services</a>\
+                        <a class="nav-link js-scroll-trigger" href="#services">Computer Aided Design</a>\
                     </li>\
                     <li class="nav-item">\
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>\
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Early Childhood Development</a>\
                     </li>\
                     <li class="nav-item">\
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>\
+                        <a class="nav-link js-scroll-trigger" href="#contact">Automotive Tech</a>\
                     </li>\
+                    <li class="nav-item">\
+                    <a class="nav-link js-scroll-trigger" href="#contact">Sports Medicine</a>\
+                </li>\
+                <li class="nav-item">\
+                    <a class="nav-link js-scroll-trigger" href="#contact">Business</a>\
+                </li>\
                 </ul>\
             </div>\
         </div>\
