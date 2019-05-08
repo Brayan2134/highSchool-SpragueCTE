@@ -3,6 +3,17 @@
    
   }
 
+.aboutCTE{
+    padding-top : 50px;
+    color: black;
+}
+
+.aboutProgram
+{
+    padding-top : 50px;
+    color : white;
+    background: #111b2b;
+}
   
 @keyframes fadeInUp {
     from {
