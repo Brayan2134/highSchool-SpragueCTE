@@ -28,22 +28,22 @@ document.write('\
             <div class="collapse navbar-collapse" id="navbarResponsive">\
                 <ul class="navbar-nav ml-auto my-2 my-lg-0">\
                     <li class="nav-item">\
-                        <a class="nav-link js-scroll-trigger" href="content/Environmental_Science/">Environmental Science</a>\
+                        <a class="nav-link js-scroll-trigger" href="content/Environmental_Science/index.html">Environmental Science</a>\
                     </li>\
                     <li class="nav-item">\
-                        <a class="nav-link js-scroll-trigger" href="content/Computer_Aided_Design/">Computer Aided Design</a>\
+                        <a class="nav-link js-scroll-trigger" href="content/Computer_Aided_Design/index.html">Computer Aided Design</a>\
                     </li>\
                     <li class="nav-item">\
-                        <a class="nav-link js-scroll-trigger" href="content/Early_Childhood_Development/">Early Childhood Development</a>\
+                        <a class="nav-link js-scroll-trigger" href="content/Early_Childhood_Development/index.html">Early Childhood Development</a>\
                     </li>\
                     <li class="nav-item">\
-                        <a class="nav-link js-scroll-trigger" href="content/Automotive_Tech/">Automotive Tech</a>\
+                        <a class="nav-link js-scroll-trigger" href="content/Automotive_Tech/index.html">Automotive Tech</a>\
                     </li>\
                     <li class="nav-item">\
-                    <a class="nav-link js-scroll-trigger" href="content/Sports_Medicine/">Sports Medicine</a>\
+                    <a class="nav-link js-scroll-trigger" href="content/Sports_Medicine/index.html">Sports Medicine</a>\
                     </li>\
                     <li class="nav-item">\
-                        <a class="nav-link js-scroll-trigger" href="content/Business/">Business</a>\
+                        <a class="nav-link js-scroll-trigger" href="content/Business/index.html">Business</a>\
                     </li>\
                 </ul>\
             </div>\
