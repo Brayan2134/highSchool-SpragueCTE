@@ -5,14 +5,29 @@
 
 .aboutCTE{
     padding-top : 50px;
+    padding-bottom : 50px;
     color: black;
 }
 
 .aboutProgram
 {
     padding-top : 50px;
+    padding-bottom : 50px;
     color : white;
     background: #111b2b;
+}
+
+.column 
+{
+    float: left;
+    width: 50%;
+    text-align : center;
+}
+
+.slantedLineOptionTest
+{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
   
 @keyframes fadeInUp {
