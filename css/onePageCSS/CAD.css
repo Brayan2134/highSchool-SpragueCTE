@@ -3,16 +3,23 @@
     height: 110%;
   }
 
+<<<<<<< HEAD
 .careers{
     padding-top : 50px;
     padding-bottom : 50px;
     color : white;
     background: #111b2b;
+=======
+.aboutCTE{
+    padding-top : 50px;
+    color: black;
+>>>>>>> JordanMillett-CAD
 }
 
 .aboutProgram
 {
     padding-top : 50px;
+<<<<<<< HEAD
     padding-bottom : 50px;
     color: black;
 }
@@ -34,6 +41,10 @@
 {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
+=======
+    color : white;
+    background: #111b2b;
+>>>>>>> JordanMillett-CAD
 }
   
 @keyframes fadeInUp {
