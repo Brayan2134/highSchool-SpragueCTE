@@ -1,0 +1,70 @@
+.masthead {
+    background: #111b2b;
+    height: 110%;
+  }
+
+.careers{
+    padding-top : 50px;
+    padding-bottom : 50px;
+    color : white;
+    background: #111b2b;
+}
+
+.aboutProgram
+{
+    padding-top : 50px;
+    padding-bottom : 50px;
+    color: black;
+}
+
+.column 
+{
+    float: left;
+    width: 50%;
+    text-align : center;
+}
+
+.slantedLineOptionTest
+{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
+}
+
+.slantedLineOptionTestInverted
+{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
+}
+  
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+    }
+    @-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+.animatedFadeInUp {
+    opacity: 0
+}
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
