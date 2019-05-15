@@ -40,3 +40,32 @@
 .masthead{
     background: hsl(192, 35%, 19%);
 }
+
+.whatIsBusiness{
+    padding-bottom: 5vh;
+}
+
+.howWeWork{
+    color: white;
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: url(../../img/programPictures/businessIntro.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opacityBlack{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 991px) {
+    .opacityBlack{
+        background: rgba(0, 0, 0, 0.3);
+    }
+}
