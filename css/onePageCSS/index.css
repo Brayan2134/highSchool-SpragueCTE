@@ -1,0 +1,151 @@
+/*
+    Author: Quevedo Ramos, Brayan
+    Date: 5/1/19
+*/
+
+/*Sprague orange color*/
+.title-orangeSpragueLogo{
+    color: #FA4616;
+}
+
+/*About CTE*/
+.aboutCTE{
+    color: #e8e8e8;
+}
+
+.aboutCTE:hover{
+    color: black;
+    transition: 1s;
+}
+
+/*After hero*/
+.transitionToPrograms{
+    background-color: #181818;
+}
+
+/*BTN to jump-tp page*/
+.btn-getStarted{
+    width: 100%;
+    color: white;
+    border-radius: 2px;
+    text-align: center;
+    background: rgb(24,24,24);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.btn-getStarted:hover{
+    transition: 0.3s all;
+    color: black;
+    background: #FA4616; 
+}
+
+/*Individual program items*/
+* {
+    box-sizing: border-box;
+}
+
+.bgEVSci{
+    background-image: url('https://via.placeholder.com/150');
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgEVSci:hover{
+    transition: 0.5s;
+    filter: blur(0px);
+}
+
+.bgCAD{
+    background-image: url('https://via.placeholder.com/150');
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgCAD:hover{
+    transition: 0.5s;
+    filter: blur(0px);
+}
+
+.bgECD{
+    background-image: url('https://via.placeholder.com/150');
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgECD:hover{
+    transition: 0.5s;
+    filter: blur(0px);
+}
+
+.bgAuto{
+    background-image: url('https://via.placeholder.com/150');
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgAuto:hover{
+    transition: 0.5;
+    filter: blur(0px);
+}
+
+.bgSportsMed{
+    background-image: url(../../img/programPictures/sportsMedIntro.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgSportsMed:hover{
+    transition: 0.5s all;
+    filter: blur(0px);
+}
+
+.bgBusiness{
+    background-image: url('https://via.placeholder.com/150');
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgBusiness:hover{
+    transition: 0.5s;
+    filter: blur(0px);
+}
+
+.bgBlur-text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    pointer-events: none;
+}

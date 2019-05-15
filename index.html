@@ -8,36 +8,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sprague CTE</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sprague CTE</title>
 
-    <!--Root file path-->
-    <base href="./" /><!--MAKE SURE PATH IS TO ROOT FOLDER (LOCATE WHERE INDEX.HTML IS)-->
+  <!--Root file path-->
+  <base href="./" /><!--MAKE SURE PATH IS TO ROOT FOLDER (LOCATE WHERE INDEX.HTML IS)-->
 
-    <!--Favicon-->
-    <link rel="icon" href="img/favicon/victory-o-orange.svg" type="image/x-icon" />
+  <!--Favicon-->
+  <link rel="icon" href="img/favicon/victory-o-orange.svg" type="image/x-icon" />
 
-    <!--Bootstrap Core (4.3.1)-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <!--Bootstrap Core (4.3.1)-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-    <!--CSS Refrence-->
-    <link rel="stylesheet" href="js/refrenceCSS.js" />
+  <!--CSS Refrence-->
+  <script src="js/refrenceCSS.js"></script>
 
-    <!--Custom CSS-->
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="css/onePageCSS/index.css">
 </head>
 <body>
     
-    <!--Navigation Pane-->
-    <script src="js/navBar.js"></script>
-    <!--./Navigation Pane-->
+  <!--Navigation Pane-->
+  <script src="js/navBar.js"></script>
+  <!--./Navigation Pane-->
 
+  <!--Masthead-->
+  <header class="masthead d-flex slantedLineOption">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1">
+        <span class="title-orangeSpragueLogo">
+        Sprague
+        </span>
+        CTE
+      </h1>
+    </div>
+    <div class="overlay"></div>
+  </header>
+  <!--./Masthead-->
+  
+  <!--What is CTE?-->
+  <section class="aboutCTE slantedLineOption">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center">
+            CTE
+          </h1>
+          <hr class="shortLine">
+        </div>
+        <div class="col-12">
+          <p class="text-">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis nec lorem in eleifend. Curabitur convallis nunc a sem accumsan commodo. Fusce id nunc vitae sem mattis semper. Nam lobortis congue sapien. Nulla non pretium diam, ut dictum sem. Donec nec tincidunt ex. Nullam ut ex at lectus iaculis elementum. Quisque purus dolor, sodales vitae consequat quis, ultrices quis sapien. Etiam non risus nec nunc hendrerit bibendum id ut mauris. Fusce fringilla tristique tempus. Nullam blandit euismod felis nec tristique. Vivamus ultricies finibus erat ac dignissim. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--./What is CTE?-->
+
+  <!--Transition To Programs Offered-->
+  <section class="transitionToPrograms slantedLineOption">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-left mt-5 mb-10">
+            <b>Programs 
+              <span class="title-orangeSpragueLogo">
+              offered.
+              </span>
+            </b>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--./Transition To Programs Offered-->
+
+  <!--Programs Offered-->
+  <section class="programsOffered">
+    <div class="container">
+      <div class="row">
+
+        <!--Environmental Science-->
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-3 mb-3">
+          <a href="content/Environmental_Science/index.html"><div class="bgEVSci"></div></a>
+          <div class="bgBlur-text">
+            <h2 class="bold">
+              Environmental Science
+            </h2>
+          </div>
+          <a href="content/Environmental_Science/index.html"><button class="btn btn-getStarted">Get Started</button></a>
+        </div><!--./Environmental Science-->
+
+        <!--CAD-->
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-3 mb-3">
+          <a href="content/Computer_Aided_Design/index.html"><div class="bgCAD"></div></a>
+          <div class="bgBlur-text">
+            <h2 class="bold">
+              Computer Aided Design
+            </h2>
+          </div>
+          <a href="content/Computer_Aided_Design/index.html"><button class="btn btn-getStarted">Get Started</button></a>
+        </div><!--./CAD-->
+
+        <!--Early Childhood Development-->
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-3 mb-3">
+          <a href="content/Early_Childhood_Development/index.html"><div class="bgECD"></div></a>
+          <div class="bgBlur-text">
+            <h2 class="bold">
+              Early Childhood Development
+            </h2>
+          </div>
+          <a href="content/Early_Childhood_Development/index.html"><button class="btn btn-getStarted">Get Started</button></a>
+        </div><!--./Early Childhood Development-->
+
+        <!--Automotive Tech-->
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-3 mb-3">
+          <a href="content/Automotive_Tech/index.html"><div class="bgAuto"></div></a>
+          <div class="bgBlur-text">
+            <h2 class="bold">
+              Automotive Tech
+            </h2>
+          </div>
+          <a href="content/Automotive_Tech/index.html"><button class="btn btn-getStarted">Get Started</button></a>
+        </div><!--./Automotive Tech-->
+        
+        <!--Sports Medicine-->
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-3 mb-3">
+          <a href="#"><div class="bgSportsMed"></div></a>
+          <div class="bgBlur-text">
+            <h2 class="bold">
+              Sports Medicine
+            </h2>
+          </div>
+          <button class="btn btn-getStarted">Get Started</button>
+        </div><!--./Sports Medicine-->
+        
+        <!--Business-->
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-3 mb-3">
+          <a href="content/Business/index.html"><div class="bgBusiness"></div></a>
+          <div class="bgBlur-text">
+            <h2 class="bold">
+              Business
+            </h2>
+          </div>
+          <a href="content/Business/index.html"><button class="btn btn-getStarted">Get Started</button></a>
+        </div><!--./Business-->
+      </div>
+    </div>
+  </section><!--./Programs Offered-->
 </body>
 
-    <!--JS, Popper.js, and jQuery-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!--./JS, Popper.js, and jQuery-->
+  <!--JS, Popper.js, and jQuery-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!--./JS, Popper.js, and jQuery-->
+
+  <!--jQuery Easing-->
+  <script src="js/jquery.easing.min.js"></script>
+
 </html>

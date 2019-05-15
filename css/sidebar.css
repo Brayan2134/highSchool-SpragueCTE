@@ -1,12 +1,74 @@
-/*
-    Author: Quevedo Ramos, Brayan
-    Co-Author: Millet, Jordan
+#mainNav {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: rgb(100, 100, 100);
+    -webkit-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+  }
+  
+  #mainNav .navbar-brand {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: white;
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.75rem 0;
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+    color: #f4623a;
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #f4623a !important;
+  }
 
-    Date: 4/29/19
-
-    Purpose:
-        - Any tags that are navigation related go here.
-
-    General Notes:
-        - CLASS STRUCTURE: .(sectionName)-(containerName)-(rowName(optional))-(class)
-*/
+  #mainNav .navbar-toggler{
+    border: none;
+  }
+  
+  @media (min-width: 992px) {
+    #mainNav {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      mix-blend-mode: difference;
+    }
+    #mainNav .navbar-brand {
+      color: rgba(255, 255, 255, 0.7);
+    }
+    #mainNav .navbar-brand:hover {
+      color: #fff;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      color: rgba(255, 255, 255, 0.7);
+      padding: 0 1rem;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: #fff;
+    }
+    #mainNav .navbar-nav .nav-item:last-child .nav-link {
+      padding-right: 0;
+    }
+    #mainNav.navbar-scrolled {
+      -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      background-color: #fff;
+    }
+    #mainNav.navbar-scrolled .navbar-brand {
+      color: #212529;
+    }
+    #mainNav.navbar-scrolled .navbar-brand:hover {
+      color: #f4623a;
+    }
+    #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
+      color: #212529;
+    }
+    #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+      color: #f4623a;
+    }
+  }

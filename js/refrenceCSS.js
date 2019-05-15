@@ -26,13 +26,13 @@ document.write('\
     <link rel="stylesheet" href="css/global.css">\
 \
     <!--Header CSS-->\
-    <link rel="stylesheet" href="css/header">\
+    <link rel="stylesheet" href="css/header.css">\
 \
     <!--Sidebar CSS-->\
     <link rel="stylesheet" href="css/sidebar.css">\
 \
     <!--Footer CSS-->\
-    <link rel="stylesheet" href="#">\
+    <link rel="stylesheet" href="css/footer.css">\
 \
 ');
 

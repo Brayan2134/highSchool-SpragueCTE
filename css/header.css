@@ -10,3 +10,76 @@
     General Notes:
         - CLASS STRUCTURE: .(sectionName)-(containerName)-(rowName(optional))-(class)
 */
+
+/*Top of page*/
+.masthead {
+  color: white;
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: rgb(24, 24, 24);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: light;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+  }
+  .masthead h1 {
+    font-size: 5rem;
+  }
+}
+
+/*Make the slanted line at the bottom of masthead*/
+.slantedLineOption{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  margin-top: -1px;
+  margin-bottom: 130px;
+  padding-top: 80px;
+}
+
+.slantedLineOption:after {
+  background: inherit;
+  bottom: -130px;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(4deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+/* Fix/hack for 1080p+ displays */
+@media screen and (min-width: 1921px) {
+  .mastheadSlantedLineOption {
+    padding-bottom: 5px;
+    margin-bottom: 240px !important;
+  }
+
+  .mastheadSlantedLineOption:after{
+    bottom: -220px !important;
+  }
+}
+
+.title-orangeSpragueLogo{
+  color: #FA4616;
+}
