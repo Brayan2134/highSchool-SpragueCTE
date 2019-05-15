@@ -1,20 +1,20 @@
 .masthead {
     background: #111b2b;
-   
+    height: 110%;
   }
 
-.aboutCTE{
+.careers{
     padding-top : 50px;
     padding-bottom : 50px;
-    color: black;
+    color : white;
+    background: #111b2b;
 }
 
 .aboutProgram
 {
     padding-top : 50px;
     padding-bottom : 50px;
-    color : white;
-    background: #111b2b;
+    color: black;
 }
 
 .column 
@@ -27,7 +27,13 @@
 .slantedLineOptionTest
 {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
+}
+
+.slantedLineOptionTestInverted
+{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
 }
   
 @keyframes fadeInUp {
