@@ -61,11 +61,21 @@
 }
 
 .opacityBlack{
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.6);
 }
 
-@media (min-width: 991px) {
-    .opacityBlack{
-        background: rgba(0, 0, 0, 0.3);
-    }
+hr.shortLineWhite{
+    border-radius: 2px;
+    height:2px;
+    border:none; 
+    color:white; 
+    background-color:white;
+    width:10%;
+    text-align:center;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+}
+
+.businessBG{
+    background: hsl(192, 35%, 19%); 
 }
