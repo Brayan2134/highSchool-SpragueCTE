@@ -27,6 +27,15 @@
 
 }
 
+
+
+@media screen and (max-width: 768px) {
+    .text-carousel {
+        margin : 4vh;
+        text-align: justify;
+    }
+}
+
 .column 
 {
     float: left;
