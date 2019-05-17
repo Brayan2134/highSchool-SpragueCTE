@@ -17,6 +17,25 @@
     color: black;
 }
 
+.CTEGallery
+{
+
+    padding-top : 50px;
+    padding-bottom : 50px;
+    color : white;
+    background: #111b2b;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .text-carousel {
+        margin : 4vh;
+        text-align: justify;
+    }
+}
+
 .column 
 {
     float: left;
