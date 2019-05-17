@@ -75,3 +75,7 @@ hr.shortLineWhite{
     margin: 0 auto;
     margin-bottom: 3vh;
 }
+
+.businessBG{
+    background: hsl(192, 35%, 19%); 
+}
