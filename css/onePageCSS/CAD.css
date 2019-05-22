@@ -19,15 +19,28 @@
 
 .CTEGallery
 {
-
+    margin-top : -1vh;
     padding-top : 50px;
-    padding-bottom : 50px;
+    padding-bottom : 100px;
     color : white;
     background: #111b2b;
 
 }
 
+.Contact
+{
+    padding-top : 50px;
+    padding-bottom : 50px;
+    color: black;
+    line-height : 40px;
+}
 
+.Contact-Info
+{
+
+    display : block;
+
+}
 
 @media screen and (max-width: 768px) {
     .text-carousel {
@@ -36,7 +49,7 @@
     }
 }
 
-.column 
+.careers .column 
 {
     float: left;
     width: 50%;
