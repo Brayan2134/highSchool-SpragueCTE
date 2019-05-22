@@ -76,6 +76,10 @@ hr.shortLine{
     background: rgb(24,24,24);
 }
 
+.sportsMedBG{
+    background: #2d142c;
+}
+
 @keyframes fadeInUp {
     from {
         transform: translate3d(0,40px,0)
