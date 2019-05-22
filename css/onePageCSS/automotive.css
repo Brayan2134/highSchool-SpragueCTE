@@ -1,0 +1,15 @@
+.masthead {
+    background: #3e3e3e;
+}
+
+.slantedLineOptionTest
+{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
+}
+
+.slantedLineOptionTestInverted
+{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
+}

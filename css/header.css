@@ -37,7 +37,7 @@
 
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
+    height: 110vh;
   }
   .masthead h1 {
     font-size: 5rem;
@@ -53,7 +53,6 @@
   margin-bottom: 130px;
   padding-top: 80px;
 }
-
 .slantedLineOption:after {
   background: inherit;
   bottom: -130px;
