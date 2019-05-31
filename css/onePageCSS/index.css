@@ -43,7 +43,7 @@
 }
 
 .bgEVSci{
-    background-image: url('https://via.placeholder.com/150');
+    background-image: url('../../img/programPictures/envSciIntro.jpg');
     filter: blur(8px);
     -webkit-filter: blur(8px);
     height: 20vh;
@@ -58,7 +58,7 @@
 }
 
 .bgCAD{
-    background-image: url('https://via.placeholder.com/150');
+    background-image: url('../../img/programPictures/cadIntro.jpg');
     filter: blur(8px);
     -webkit-filter: blur(8px);
     height: 20vh;
@@ -73,7 +73,7 @@
 }
 
 .bgECD{
-    background-image: url('https://via.placeholder.com/150');
+    background-image: url('../../img/programPictures/earlyChildIntro.jpg');
     filter: blur(8px);
     -webkit-filter: blur(8px);
     height: 20vh;
@@ -88,7 +88,7 @@
 }
 
 .bgAuto{
-    background-image: url('https://via.placeholder.com/150');
+    background-image: url('../../img/programPictures/automotiveTechIntro.jpg');
     filter: blur(8px);
     -webkit-filter: blur(8px);
     height: 20vh;
@@ -98,7 +98,7 @@
 }
 
 .bgAuto:hover{
-    transition: 0.5;
+    transition: 0.5s all;
     filter: blur(0px);
 }
 
@@ -118,7 +118,7 @@
 }
 
 .bgBusiness{
-    background-image: url('https://via.placeholder.com/150');
+    background-image: url('../../img/programPictures/businessIntro.jpg');
     filter: blur(8px);
     -webkit-filter: blur(8px);
     height: 20vh;
