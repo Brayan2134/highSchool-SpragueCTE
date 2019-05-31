@@ -1,0 +1,31 @@
+.masthead {
+    background: #3e3e3e;
+}
+
+.learnProgram
+{
+    padding-top : 50px;
+    padding-bottom : 50px;
+}
+
+.slantedLineOptionTest
+{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
+}
+
+.slantedLineOptionTestInverted
+{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
+}
+
+.CTEGallery
+{
+    margin-top : -1vh;
+    padding-top : 50px;
+    padding-bottom : 100px;
+    color : white;
+    background: #3e3e3e;
+
+}
