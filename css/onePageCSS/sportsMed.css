@@ -16,3 +16,22 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.sportsMedInfoHeader
+{
+    padding-top : 5%;
+}
+
+.sportsMedInfoContent
+{  
+    background: #3a1e39;
+    color : white;
+    padding : 1rem;
+}
+
+.sportsMedInfoContentAlternate
+{  
+    background: white;
+    color : black;
+    padding : 1rem;
+}
