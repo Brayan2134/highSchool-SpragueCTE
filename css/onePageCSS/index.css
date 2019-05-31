@@ -10,12 +10,7 @@
 
 /*About CTE*/
 .aboutCTE{
-    color: #e8e8e8;
-}
-
-.aboutCTE:hover{
     color: black;
-    transition: 1s;
 }
 
 /*After hero*/
@@ -108,7 +103,7 @@
 }
 
 .bgSportsMed{
-    background-image: url(../../img/programPictures/sportsMedIntro.jpg);
+    background-image: url('../../img/programPictures/sportsMedIntro.jpg');
     filter: blur(8px);
     -webkit-filter: blur(8px);
     height: 20vh;

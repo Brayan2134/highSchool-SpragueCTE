@@ -76,6 +76,10 @@ hr.shortLine{
     background: rgb(24,24,24);
 }
 
+.sportsMedBG{
+    background: #2d142c;
+}
+
 @keyframes fadeInUp {
     from {
         transform: translate3d(0,40px,0)
@@ -107,4 +111,20 @@ hr.shortLine{
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
+}
+
+.opacityBlack{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+hr.shortLineWhite{
+    border-radius: 2px;
+    height:2px;
+    border:none; 
+    color:white; 
+    background-color:white;
+    width:10%;
+    text-align:center;
+    margin: 0 auto;
+    margin-bottom: 3vh;
 }
