@@ -1,3 +1,78 @@
 .masthead {
     background: #455371;
 }
+
+.mastheadColor{
+    background: #455371;
+}
+
+.careers .column 
+{
+    float: left;
+    width: 50%;
+    text-align : center;
+}
+
+.careers{
+    padding-top : 50px;
+    padding-bottom : 50px;
+    color : white;
+    background: #455371;
+}
+
+.masthead {
+    background: #455371;
+  }
+
+.careers{
+    padding-top : 50px;
+    padding-bottom : 50px;
+    color : white;
+    background: #455371;
+}
+
+.aboutProgram
+{
+    padding-top : 50px;
+    padding-bottom : 50px;
+    color: black;
+}
+
+.CTEGallery
+{
+    margin-top : -1vh;
+    padding-top : 50px;
+    padding-bottom : 100px;
+    color : white;
+    background: #455371;
+
+}
+
+.Contact
+{
+    padding-top : 50px;
+    padding-bottom : 50px;
+    color: black;
+    line-height : 40px;
+}
+
+.Contact-Info
+{
+
+    display : block;
+
+}
+
+@media screen and (max-width: 768px) {
+    .text-carousel {
+        margin : 4vh;
+        text-align: justify;
+    }
+}
+
+.careers .column 
+{
+    float: left;
+    width: 50%;
+    text-align : center;
+}
